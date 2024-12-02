@@ -1,13 +1,23 @@
+* {
+  box-sizing: border-box;
+  /* outline: 2px dotted yellow; */
+}
+
 body {
   background-color: #1e1e31;
 }
 
 .title {
   color: white;
+  text-align: center;
 }
 
 li,
 a {
   color: #fff;
   text-decoration: none;
+}
+.main-box {
+  width: 200px;
+  margin: 0px auto;
 }
