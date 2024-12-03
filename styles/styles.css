@@ -5,6 +5,10 @@
   color: white;
   /* outline: 2px dotted red; */
 }
+@font-face {
+  font-family: viking;
+  src: url(../fonts/Acadian_Runes-Regular_PERSONAL_USE.ttf);
+}
 
 body {
   background-color: #1e1e31;
@@ -15,24 +19,71 @@ body {
 
 .main-box {
   width: 500px;
-  margin: 30px auto;
+  margin: 60px auto;
   text-align: center;
   display: inline-block;
 }
 
-.list {
-  display: block;
-}
 .title {
+  font-family: viking;
   margin: 10px;
   text-align: center;
+  font-size: 50px;
 }
 .logo {
   margin: 10px;
 }
 
 .list {
-  display: block;
+  font-family: viking;
   margin: 5px auto;
-  width: 200px;
+  list-style-type: none;
+  text-align: center;
+  font-size: 30px;
+}
+li {
+  list-style-position: inside;
+}
+.pie > a {
+  color: #c91a31;
+}
+
+.flan > a {
+  color: #eeb450;
+}
+.cake > a {
+  color: #d38f8b;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  font-size: 37px;
+  font-weight: bold;
+}
+a:active {
+  text-decoration: underline;
+  color: white;
+}
+
+.pie {
+  list-style-image: url(../images/resized/pie.png);
+}
+.flan {
+  list-style-image: url(../images/resized/flan.png);
+}
+.cake {
+  list-style-image: url(../images/resized/cake.png);
+}
+
+footer {
+  font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", "Noto Sans",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #13131f;
+  text-align: center;
+  opacity: 0.5;
 }
