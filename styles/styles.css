@@ -56,14 +56,17 @@ li {
 }
 a {
   text-decoration: none;
+  transition: 0.3s;
 }
 a:hover {
   font-size: 37px;
   font-weight: bold;
+  transition: 0.3s;
 }
 a:active {
   text-decoration: underline;
   color: white;
+  transition: 0.3s;
 }
 
 .pie {

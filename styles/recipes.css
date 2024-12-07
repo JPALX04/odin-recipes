@@ -48,6 +48,18 @@ h2 {
   text-align: center;
   font-size: 50px;
 }
+.title-pie,
+.pie-box h2 {
+  text-shadow: 0 0 7px #c91a31, 0 0 7px rgb(255, 112, 112);
+}
+.title-flan,
+.flan-box h2 {
+  text-shadow: 0 0 7px #eeb450, 0 0 7px #f5c471;
+}
+.title-cake,
+.cake-box h2 {
+  text-shadow: 0 0 7px #d38f8b, 0 0 7px #d19592;
+}
 
 .p .recipes-container {
   display: block;
@@ -79,4 +91,26 @@ p {
 .directions li {
   list-style-type: upper-roman;
   margin: 10px;
+}
+.button {
+  margin: 15px;
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  font-family: viking;
+  transition: 0.3s;
+}
+.button:hover {
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.button-pie {
+  text-shadow: 0 0 17px #c91a31, 0 0 7px rgb(255, 112, 112);
+}
+.button-flan {
+  text-shadow: 0 0 17px #eeb450, 0 0 7px #f5c471;
+}
+.button-cake {
+  text-shadow: 0 0 17px #d38f8b, 0 0 7px #d19592;
 }
